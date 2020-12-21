@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #5846f9;
+  color: #f94646;
 }
 
 a:hover {
@@ -370,7 +370,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-  color: #5846f9;
+  color: #f9c046;
   text-decoration: none;
 }
 
@@ -1181,7 +1181,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #5846f9 !important;
+  background-color: #f9c046 !important;
 }
 
 .portfolio-details .portfolio-info {
