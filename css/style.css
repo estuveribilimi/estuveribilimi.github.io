@@ -43,7 +43,7 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #5846f9;
+  background: #ffae00;
   color: #fff;
   transition: all 0.4s;
 }
@@ -72,7 +72,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5846f9;
+  border: 6px solid #ffae00;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -1401,13 +1401,31 @@ section {
 # social bar
 --------------------------------------------------------------*/
 @media only screen and (max-width: 400px) {
-  .social{
+  .social {
     display: none;
   }
-} 
+}
 
-.social{
+.social {
   top: 300px;
-  left: 200vh;
+  right: 0vh;
   font-size: 25px;
+}
+
+.bg-danger {
+  background-color: #ffae00 !important;
+  padding: 2vh 5vh 0vh 2vh;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.59);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.59);
+}
+.twitter:hover, .instagram:hover, .linkedin:hover{
+  transition: 0.3s;
+  font-size: 23px;
+}
+
+.twitter, .instagram, .linkedin{
+  transition: 0.3s;
 }
