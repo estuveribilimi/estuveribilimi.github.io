@@ -1429,3 +1429,35 @@ section {
 .twitter, .instagram, .linkedin{
   transition: 0.3s;
 }
+
+/* !announcement */
+
+.announcement_card{
+  width: 100%;
+  border-radius: 1.5rem;
+  background: #fff;
+  overflow: hidden;
+}
+
+.announcement_content ul{
+  margin-left: -20px;
+}
+
+.btn-anno{
+  padding: .7rem;
+  background: linear-gradient(45deg, rgba(236, 172, 62, 0.9) 0%, rgba(326, 172, 62, 0.9) 100%), url("../img/counts-bg.png") center center no-repeat;
+  color: #fff;
+  border-radius: .5rem;
+  font-weight: 900;
+  float: right;
+  transition: .3s all;
+}
+
+.btn-anno:hover{
+  transform: scale(.98);
+  transition: .3s all;
+  color: #fff;
+}
+
+
+/* !/announcement */
