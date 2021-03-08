@@ -1397,6 +1397,11 @@ section {
   text-decoration: none;
 }
 
+
+#footer .copyright-link:hover{
+  color: rgba(0, 0, 0, 0.407);
+}
+
 /*--------------------------------------------------------------
 # social bar
 --------------------------------------------------------------*/
@@ -1430,7 +1435,7 @@ section {
   transition: 0.3s;
 }
 
-/* !announcement */
+/* announcement */
 
 .announcement_card{
   width: 100%;
@@ -1459,4 +1464,4 @@ section {
 }
 
 
-/* !/announcement */
+/* announcement */
